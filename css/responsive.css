@@ -1,0 +1,76 @@
+@media only screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.ul-menu {
+		padding-left: 12%;
+	}
+	.menu-main-screen {
+		display: none;
+	}
+	/* .header-slide {
+		height: 100%;
+	} */
+}
+@media only screen and (max-width: 991px) {
+	.heightVh {
+		height: 100vh;
+	}
+	.carousel-control-next-icon,
+	.carousel-control-prev-icon {
+		width: 20px;
+	}
+	.icon-search > i {
+		font-size: 25px;
+	}
+
+	.close-menu {
+		position: absolute;
+		top: 0;
+		right: 30px;
+		font-size: 40px;
+	}
+	.menu-main-screen {
+		position: absolute;
+		top: 0;
+		transition: all 1s;
+		height: 100vh;
+		display: block;
+		width: 0;
+		background: black;
+		transition: traslateX(-30%);
+		opacity: 0;
+		z-index: 999999;
+	}
+	.toggle-menu {
+		display: block;
+		z-index: 99999;
+	}
+	.menu-main {
+		display: none;
+	}
+	.ul-menu {
+		padding-left: 0;
+		width: 85%;
+	}
+	.nav-itema {
+		padding-bottom: 10px;
+	}
+	.icon-cart {
+		padding-left: 2%;
+	}
+	.slideImg {
+		height: 100vh;
+	}
+	.slide,
+	.carousel-inner,
+	.carousel-item,
+	.img-slide {
+		height: 100%;
+	}
+	.txt-slide1 {
+		font-size: 17px;
+	}
+	.txt-slide2 {
+		font-size: 30px;
+	}
+}

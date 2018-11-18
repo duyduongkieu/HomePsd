@@ -1,0 +1,262 @@
+a {
+	text-decoration: none !important;
+}
+.font-Releway {
+	font-family: Raleway;
+}
+.font-Montserrat {
+	font-family: Montserrat;
+}
+/* ........... */
+.header-slide {
+	position: relative;
+	height: 100%;
+}
+.header {
+	width: 100%;
+	/* background: gray; */
+	top: 3%;
+	position: absolute;
+	z-index: 99999;
+}
+.toggle-menu {
+	font-size: 25px;
+	color: white;
+	display: none;
+}
+.txt-logo {
+	font-family: Raleway;
+	font-size: 34px;
+}
+.nav-itema {
+	padding-left: 20px !important;
+}
+.nav-linka {
+	font-size: 14px;
+	color: white;
+}
+.nav-linka:hover {
+	color: #c7b299;
+}
+.ul-menu {
+	padding-left: 30%;
+}
+.icon-cart > i,
+.icon-search > i {
+	font-size: 14px;
+	color: white;
+}
+.icon-search {
+	margin-left: 25px;
+}
+.icon-cart {
+	padding-left: 10%;
+}
+.carousel-indicators li {
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+}
+.txt-slide1 {
+	font-family: Raleway;
+	font-size: 36px;
+	line-height: 0px;
+	font-weight: 500;
+}
+.txt-slide2 {
+	font-family: Raleway;
+	font-weight: 800;
+	font-size: 52px;
+}
+.txt-slide3 {
+	font-family: Montserrat;
+	font-size: 16px;
+}
+.getStarted {
+	font-weight: 500;
+	background: #998675;
+	padding: 10px 20px;
+	color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.getStarted:hover {
+	background: #fff;
+	color: #777;
+}
+@keyframes slideInFromtop {
+	0% {
+		transform: translateY(150%);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+.carousel-caption {
+	bottom: 25%;
+	animation: 1s ease-out 0s 1 slideInFromtop;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+	width: 30px;
+	height: 40px;
+}
+.menu-main-screen {
+	display: none;
+}
+/* ........................content-service */
+.icon-s {
+	font-size: 35px;
+}
+.icon-s {
+	padding-bottom: 10px;
+}
+.title-s {
+	font-size: 22px;
+	font-family: Raleway;
+}
+.txt-s {
+	font-size: 14px;
+}
+.icon-s,
+.title-s,
+.txt-s {
+	color: #555555;
+}
+.border-div {
+	border-bottom: 2px solid;
+	margin: 0 90px;
+	color: #8c8c8c;
+	opacity: 0.4;
+}
+.content-s:hover .border-div {
+	opacity: 1;
+	color: #c7b299;
+}
+.content-s:hover .icon-s {
+	color: #c7b299;
+}
+.content-s:hover .title-s {
+	color: #c7b299;
+}
+/* .............content-realization */
+.content-realization {
+	background: #fbfaf8;
+}
+.title-cr {
+	font-family: Raleway;
+	font-size: 30px;
+	font-weight: 600;
+}
+.txt-cr {
+	font-family: Montserrat;
+	font-size: 16px;
+}
+/* ...................text-box... */
+.content-textBox {
+	background: #231c1a;
+}
+.title-box {
+	line-height: 27px;
+}
+.tbox-1 {
+	font-size: 28px;
+	color: white;
+}
+.tbox-1 > span {
+	color: #998675;
+}
+.tbox-2 {
+	font-size: 18px;
+	color: #615855;
+}
+.purchase {
+	margin-top: 20px;
+}
+.purchase > a {
+	background: #998675;
+	color: white;
+	font-size: 14px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-weight: 600;
+}
+.purchase > a:hover {
+	opacity: 0.7;
+}
+/* .......................categories */
+.nav-item {
+	width: 110px;
+	color: white;
+	border: 1px solid #998675;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+.nav-link {
+	font-size: 14px;
+	color: #998675;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	background-color: #998675;
+}
+.img-item {
+	position: relative;
+}
+.icon-img-item {
+	position: absolute;
+	top: 45%;
+	left: 40%;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.8s all;
+}
+.icon-img-item a {
+	font-size: 20px;
+
+	color: white;
+}
+.item-outer {
+	background: #fbfaf8;
+	position: relative;
+}
+.title-outer {
+	font-size: 20px;
+	color: #c7b299;
+}
+.txt-outer {
+	line-height: 0px;
+	font-size: 14px;
+	color: #d1d1d1;
+	transition: 0.8s all;
+}
+.up-arrow {
+	position: absolute;
+	font-size: 35px;
+	top: -30px;
+	color: #fbfaf8;
+	left: 5%;
+}
+.item-wrapper:hover .icon-img-item {
+	opacity: 1;
+	visibility: visible;
+}
+.imageT {
+	max-width: 100%;
+	transition: 0.8s all;
+}
+.item-wrapper {
+	overflow: hidden;
+	opacity: 1;
+}
+.item-wrapper:hover .imageT {
+	transform: scale(1.1);
+	background-color: rgba(0, 191, 255, 0.7);
+	opacity: 0.3;
+}
+.item-wrapper:hover .item-outer {
+	background: #362f2d;
+}
+.item-wrapper:hover .up-arrow {
+	color: #362f2d;
+}
