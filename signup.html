@@ -1,48 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Title</title>
+		<title>Signup</title>
 		<!-- Required meta tags -->
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,
+			shrink-to-fit=no" />
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
-		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800" rel="stylesheet" />
+		<link rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+			/>
+		<link rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700"
+			rel="stylesheet">
 		<link rel="stylesheet" href="./css/signup.css" />
 	</head>
 	<body>
 		<div class="contentSignup">
-			<div class="container">
-				<div class="formSignup my-5 text-center">
-					<div class="formSignup__title">
-						<p class="formSignup__title__main"><span>Signup</span> Forms</p>
-					</div>
-					<div class="formSignup__main">
-						<form action="">
-							<div class="form-group">
-								<div class="row">
-									<div class="col-md-6">
-										<input type="text" class="w-100" placeholder="First Name" />
-									</div>
-									<div class="col-md-6">
-										<input type="text" class="w-100" placeholder="Last Name" />
-									</div>
-								</div>
-
-								<div class="row"><input type="text" class="w-100" placeholder="Last Name" /></div>
+			<!-- <div class="container"> -->
+			<div class="formSignup my-5">
+				<div class="formSignup__title text-center">
+					<p class="formSignup__title__main"><span>Signup</span> Forms</p>
+				</div>
+				<div class="formSignup__main">
+					<form action="" class="py-2">
+						<div class="form-group_1 d-flex">
+							<div class="">
+								<input type="text" class="w-100" placeholder="First Name" />
 							</div>
-						</form>
-					</div>
+							<div class="pl-3">
+								<input type="text" class="w-100" placeholder="Last Name" />
+							</div>
+						</div>
+						<div class="form-group_2 form-group_1">
+							<div class="">
+								<input type="text" class="w-100" placeholder="Username" />
+							</div>
+						</div>
+						<div class="form-group_3 form-group_1">
+							<div class="">
+								<input type="text" class="w-100" placeholder="Email Address" />
+							</div>
+						</div>
+						<div class="form-group_4 form-group_1">
+							<div class="">
+								<input type="text" class="w-100" placeholder="Password" />
+							</div>
+						</div>
+						<div class="checkBox form-group_1">
+							<input name="checkbox" type="checkbox" />
+							<label for="checkbox">I Agree to the <a href="#" class="txt-a">terms of
+									use</a></label>
+						</div>
+						<div class="btn-text text-center">
+							<button type="button" class="btn text-white">Sign Up</button>
+							<p class="mt-4">Have an account with us? <a href="./login.html"
+									class="txt-a">Login
+									here</a></p>
+						</div>
+					</form>
 				</div>
 			</div>
+			<!-- </div> -->
 		</div>
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
 		<script src="./js/signup.js"></script>
 	</body>
 </html>

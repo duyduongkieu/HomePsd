@@ -18,12 +18,14 @@ a {
   font-weight: 600;
 }
 .formSignup__main {
-  width: 50%;
+  width: 25%;
   margin: 0 auto;
   max-width: 450px;
   box-shadow: 0px 1px 11px 0px #a5a4a4;
 }
+/* .....login */
 
+/* ....................... */
 .form-group_1 {
   padding: 25px 25px 0px 25px;
 }
@@ -49,11 +51,18 @@ a {
   padding: 8px 30px;
   font-size: 14px;
   font-weight: 600;
-  background: #fea15d;
+  background: #a9dd7d;
 }
+/* .........login...... */
 
+/* ............. */
+@media only screen and (max-width: 991px) {
+  .formSignup__main {
+    width: 50%;
+  }
+}
 @media only screen and (max-width: 576px) {
   .formSignup__main {
-    width: 90%;
+    width: 80%;
   }
 }
