@@ -8,4 +8,8 @@ $(document).ready(function() {
 		$('.menu-main-screen').css({ width: '1%', opacity: '0' });
 		$('.ul-menu').css({ display: 'none' });
 	});
+	if (window.matchMedia('(min-width: 768px)').matches && window.matchMedia('(max-width: 991px)').matches) {
+		$('.carousel-caption').css('bottom', '39%');
+		$('.logoPartners img').css('width', '90%');
+	}
 });
